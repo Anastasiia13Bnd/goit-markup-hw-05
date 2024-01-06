@@ -519,3 +519,55 @@ margin-bottom: 16px;
     display: flex;
     align-items: baseline;
 }
+
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(46, 47, 66, 0.40);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.backdrop.is-open {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.modal {
+    width: 408px;
+    min-height: 584px;
+    border-radius: 4px;
+    background-color: #FCFCFC;
+    padding: 72px 24px 24px 24px;
+}
+
+.modal-btn {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    height: 24px;
+    width: 24px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-btn-icon {
+
+}
+
+.modal-caption {
+    color: #2E2F42;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+}
