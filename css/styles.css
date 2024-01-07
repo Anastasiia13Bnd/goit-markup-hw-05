@@ -630,21 +630,10 @@ margin-bottom: 16px;
 
 }
 
-.modal-btn:hover {
-    background-color: #404bbf;
-    border: none;
-}
-
+.modal-btn:hover,
 .modal-btn:focus {
     background-color: #404bbf;
     border: none;
-}
-
-.modal-btn:hover svg {
-    fill: #ffffff;
-}
-
-.modal-btn:focus svg {
     fill: #ffffff;
 }
 
